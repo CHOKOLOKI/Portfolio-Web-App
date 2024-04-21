@@ -26,9 +26,7 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "Front-end Developer",
-                1000,
-                "Manual QA Tester",
+                "Manual QA",
                 1000,
               ]}
               wrapper="span"
@@ -61,17 +59,17 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center mt-14 lg:mt-0 ml-6"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] mx-10 sm:my-11 relative">
-            <Image
-              src="/images/profile.jpeg"
-              alt="profile"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
-              width={300}
-              height={300}
-            />
-          </div>
+            <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] mx-10 sm:my-11 relative">
+              <Image
+                src="/images/profile.jpeg"
+                alt="profile"
+                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+                width={300}
+                height={300}
+              />
+          </div>  
         </motion.div>
       </div>
     </section>
